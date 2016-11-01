@@ -1,0 +1,14 @@
+web stuff
+
+Push the new
+
+No more mushrooms :(
+
+CSS redo including: 
+neat and commented code,
+full theme?
+Fix the sizing issue on really large screens as Lael pointed out
+Mobile first css
+Fade from white?
+
+More art for portfolio

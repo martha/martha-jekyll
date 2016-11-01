@@ -1,0 +1,26 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+      <img src="images/hamburger-teal.png" class="veggie-burger" id="veggie-burger">
+      <h1 class="site-title" id="header"><a href="{{ site.url }}">{{ site.title | downcase | escape }}</a></h1>
+
+      <div id="nav">
+        <ul>
+          <li><a class="page=link" href="{{ site.url }}">home</a></li>
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | downcase | escape }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <img src="images/mushrooms.svg" id="mushrooms">
+
+    </nav>
+
+  </div>
+
+</header>
