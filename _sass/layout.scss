@@ -1,0 +1,72 @@
+/*.veggie-burger {
+  display: block;
+  width: 2em;
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.squid-wrap {
+  height: 15em;
+  overflow: hidden;
+  position: relative;
+}
+
+#squid {
+  position: absolute;
+  bottom: 0;
+  left: -3em;
+  width: 330px;
+}
+
+.page-link {
+  display: none;
+}
+
+h1 {
+  font-style: bold;
+  cursor: pointer;
+  text-indent: 0.3em;
+  font-size: 3.3em;
+  line-height: 0.9em;
+  position: absolute;
+  top: 1.7em;
+  left: 2.4em;
+  z-index: 10;
+}
+*/
+
+/*  
+
+h1 { < 320
+  margin-top: 2em;
+  margin-left: 3.2em;
+  font-size: 2.2em;
+}
+
+h1 { < 450
+    margin-top: 1.5em;
+    margin-left: 2.5em;
+    font-size: 3em;
+  }
+
+  h1 { < 690
+    margin-top: 1.2em;
+    margin-left: 2.3em;
+    line-height: 0.9em;
+    text-indent: -0.2em;
+  }
+
+  h1 { < 900
+    font-size: 4em;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 0em;
+  }
+
+  h1 { usual
+    font-size: 5em;
+    margin-bottom: .2em;
+  }*/

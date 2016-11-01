@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<img id="face" class="content-image" src="images/martha.jpg">
+<p>Hello there! I'm a programmer and artist studying computer science at Brown University in Providence. At the moment I'm spending my junior fall abroad in Spain at the University of Granada. Prior to Brown, I attended Bard College at Simon's Rock in lieu of my senior year. I speak Java, JavaScript, Python, alto clef, and Spanish. In my free time, I cook stir-fries and work as an office assistant in Brown's music department.</p>
+
+<p>
+  <a href="mailto:martha_edwards@brown.edu">email</a> |
+  <a href="https://github.com/marthakedwards">github</a> |
+  <a href="https://indd.adobe.com/view/44183e6f-e7c1-4f68-b754-235268101e49">resume</a>
+</p>
+
+{% if site.description %}
+  {{ site.description | escape }}
+{% endif %}
