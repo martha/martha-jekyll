@@ -17,7 +17,7 @@ title: Martha Edwards
 email: martha_edwards@brown.edu
 description: > # this means to ignore newlines until "baseurl:"
   © 2016 Martha Edwards
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/martha-jekyll" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  marthakedwards
 
